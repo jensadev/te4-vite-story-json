@@ -1,0 +1,44 @@
+[
+    {
+        "id": 0,
+        "description": "Hejsan och välkommen",
+        "options": [
+            {
+                "text": "Fortsätt",
+                "target": 1
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "description": "Vill du äta mat eller dricka mat",
+        "options": [
+            {
+                "text": "Äta",
+                "target": 2
+            },
+            {
+                "text": "Dricka",
+                "target": 3
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "description": "Du äter maten, den är förgiftad, game over"
+    },
+    {
+        "id": 4,
+        "description": "Du dricker maten, den är inte flytande, det fungerar inte.",
+        "options": [
+            {
+                "text": "Fortsätt utan att dricka maten",
+                "target": 5
+            },
+            {
+                "text": "Försök äta maten",
+                "target": 3
+            }
+        ]
+    }
+]
